@@ -4,7 +4,7 @@ agent any
 stages {
 stage('checkout') {
 steps {
-git url: 'https://github.com/Suchit2518/IBM_CICD-PIPELINE.git'
+git url: 'https://github.com/Suchit2518/IBM_CICD-PIPELINE.git', branch: 'main'
 }
 }
 stage('build') {
